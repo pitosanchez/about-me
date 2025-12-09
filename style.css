@@ -1,0 +1,101 @@
+/* ===== Global Page Style ===== */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+  line-height: 1.8;
+  padding: 40px;
+  background: linear-gradient(135deg, #e9f2ff, #c6e0f9ff);
+  color: #1a1a1a;
+}
+
+/* ===== Hero Title Section ===== */
+.hero-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* "About" heading – choose any font here */
+.hero-title h1 {
+  font-size: 5rem;
+  font-family: "Monoton", sans-serif;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+  color: #133c7a;
+}
+
+/* "Robert Sanchez" heading – different font */
+.hero-title h2 {
+  font-size: 4rem;
+  font-family: "Pompiere", sans-serif;
+  margin-top: -2rem;
+  color: #0a2a4f;
+}
+
+/* ===== Page Frame ===== */
+main {
+  background: white;
+  padding: 40px 50px;
+  border-radius: 16px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* ===== Header & Image ===== */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header img {
+  max-width: 45%;
+  height: auto;
+  border-radius: 12px;
+  border: 4px solid white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== Headings ===== */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #133c7a;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #1f4c8f;
+}
+
+/* ===== Paragraphs ===== */
+p {
+  font-size: 1.1rem;
+  margin-bottom: 18px;
+}
+
+/* ===== Learn More Section ===== */
+.learn-more {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.learn-more a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #0a73b7;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 2px solid #0a73b7;
+  transition: 0.25s ease-in-out;
+}
+
+.learn-more a:hover {
+  background: #0a73b7;
+  color: white;
+}
