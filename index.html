@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Monoton&family=Pompiere&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Monoton&family=Merriweather:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
     <title>About Robert A. Sanchez</title>
@@ -97,5 +97,25 @@
         </a>
       </section>
     </main>
+
+    <script>
+      // Reveal cards on scroll
+      const sections = document.querySelectorAll('main section:not(.learn-more)');
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in-view');
+          }
+        });
+      }, {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+      });
+
+      sections.forEach((section) => {
+        observer.observe(section);
+      });
+    </script>
   </body>
 </html>
